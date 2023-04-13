@@ -9,7 +9,74 @@
 
 <body>
 
-    <nav></nav>
+    <nav>
+
+        <a href="">About Us</a>
+        <a href=""></a>
+        <a href="">Recipes and Tips</a>
+        <a href="">Contact Us</a>
+        <a href="./SignUP/SignUp.html">Sign Up</a>
+
+
+    </nav>
 
 </body>
 </html>
+
+
+
+
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+public class CreateWriteFile {
+public static void main(String[] args) {
+String fileName = "C:\\Users\\lamirshkurti\\Desktop\\filejava.txt";
+String data = "Ky eshte teksti qe do te shkruhet ne file.";
+try {
+FileOutputStream outputStream = new
+FileOutputStream(fileName); // Klasa FileOutputStream mund të
+përdoret për të krijuar, hapur dhe shkruar në fajlla.
+byte[] bytesArray = data.getBytes(); // konvertimi i tekstit
+në bytes
+outputStream.write(bytesArray); // shkrimi i bytes në output
+stream
+System.out.println("File-u u krijua me sukses!"); // shfaqja
+e një mesazhi pas krijimit të file-it
+outputStream.close(); // mbyllja e output stream-it
+} catch (IOException e) {
+e.printStackTrace();
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
