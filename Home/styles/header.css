@@ -1,0 +1,122 @@
+body {
+    height: 3000px;
+}
+
+.header {
+    height: 76px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    z-index: 100;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.healthify-logo {
+    height: 150px;
+    margin-left: 30px;
+    margin-right: -5px;
+}
+
+.healthify-text {
+    font-size: 23px;
+    color: white;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 50px;
+}
+
+
+
+
+.about-us {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+.about-us:hover { 
+    background-color: rgb(42, 230, 42);
+    color: black;
+}
+
+
+
+.recipes-and-tips {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+.recipes-and-tips:hover { 
+    background-color: rgb(42, 230, 42);
+    color: black;
+}
+
+
+
+.contact-us {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+.contact-us:hover {
+    background-color: rgb(42, 230, 42);
+    color: black;
+}
+
+
+
+.sign-up {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+.sign-up:hover {
+    background-color: rgb(42, 230, 42);
+    color: black;
+}
