@@ -1,5 +1,12 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 body {
     height: 3000px;
+    font-family: Roboto, Arial;
+    margin: 0;
 }
 
 
@@ -119,4 +126,61 @@ body {
 }
 .sign-up:hover {
     background-color: rgb(42, 230, 42);
+}
+
+
+.text-background {
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url(../img/vegetables.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+
+}
+
+.text-container {
+    font-family: Roboto, Arial;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.diet-button {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    display: flex;
+    height: 45px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: white;
+    opacity: 70%;
+}
+.diet-button a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.diet-button:hover{
+    background-color: rgb(205, 198, 198);
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 725px;
+    background-color: grey;
+    border: solid;
+    border-width: 5px;
 }
