@@ -7,6 +7,7 @@ body {
     height: 3000px;
     font-family: Roboto, Arial;
     margin: 0;
+    background-color: rgb(182, 182, 182);
 }
 
 
@@ -174,13 +175,42 @@ body {
     background-color: rgb(205, 198, 198);
 }
 
+
 .detail-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 725px;
-    background-color: grey;
-    border: solid;
-    border-width: 5px;
+    height: 750px;
+}
+
+.what-container {
+    height: 750;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.what-logo-container {
+    width: 430px;
+}
+
+
+.how-container {
+    height: 750;
+    background-color: pink;
+
+}
+.how-logo-container {
+    width: 430px;
+}
+
+.benefits-container {
+    height: 750;
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.what-logo-container {
+    width: 430px;
 }
