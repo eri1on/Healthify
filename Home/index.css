@@ -4,7 +4,7 @@ p {
 }
 
 body {
-    height: 3000px;
+    height: 4000px;
     font-family: Roboto, Arial;
     margin: 0;
 }
@@ -69,6 +69,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 25px;
+    cursor: pointer;
 }
 .about-us:hover { 
     background-color: rgb(42, 230, 42);
@@ -86,6 +87,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 25px;
+    cursor: pointer;
 }
 .dont-knowYet:hover { 
     background-color: rgb(42, 230, 42);
@@ -104,6 +106,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 25px;
+    cursor: pointer;
 }
 .recipes-and-tips:hover { 
     background-color: rgb(42, 230, 42);
@@ -122,6 +125,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 25px;
+    cursor: pointer;
 }
 .contact-us:hover {
     background-color: rgb(42, 230, 42);
@@ -140,6 +144,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 25px;
+    cursor: pointer;
 }
 .sign-up:hover {
     background-color: rgb(42, 230, 42);
@@ -169,6 +174,7 @@ body {
 .diet-button {
     font-family: Roboto, Arial;
     font-size: 16px;
+    font-weight: 500;
     display: flex;
     height: 45px;
     width: 180px;
@@ -180,6 +186,9 @@ body {
     border-width: 0;
     background-color: white;
     opacity: 70%;
+    box-shadow: 0px 15px 15px grey;
+    cursor: pointer;
+    margin: 0 auto;
 }
 .diet-button a {
     text-decoration: none;
@@ -187,7 +196,7 @@ body {
     padding: 10px;
 }
 .diet-button:hover{
-    background-color: rgb(205, 198, 198);
+    background-color: rgb(231, 226, 226);
 }
 
 .detail-container {
@@ -199,6 +208,7 @@ body {
     font-weight: 400;
     text-align: center;
     font-family: Roboto, Arial;
+    color: rgb(122, 122, 122);
 }
 
 .img-det1 {
@@ -209,11 +219,11 @@ body {
     margin-top: -100px;
 }
 .img-det2 {
-    height: 410px;
+    height: 350px;
     width: 450px;
     display: flex;
-    margin-bottom: -150px;
-    margin-top: -50px;
+    margin-bottom: -100px;
+    margin-top: -45px;
 }
 .img-det3 {
     height: 460px;
@@ -226,14 +236,79 @@ body {
 .what-container {
     border: solid;
     border-radius: 50px;
-    border-color: grey;
-    border-width: 3px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color: none;
+    border-width: 0px;
     margin: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 30px 30px grey;
 }
 
 .heading-con {
     font-size: 24px;
     font-weight: 700;
+    color: black;
+}
+
+
+.thirdPage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(../img/prove.jpg);
+    background-size: cover;
+    /*background-color: lightpink;*/
+    margin-top: 30px;
+    border-radius: 1000px;
+    clip-path: circle(62%);
+    box-shadow: 0px 0px 30px grey;
+}
+
+.thirdPage-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;    
+    width: 900px;
+
+    font-family: Robot, Arial;
+    font-size: 24px;
+    color: white;
+
+}
+
+.headTxt-cont {
+    font-family: Roboto, Arial;
+    font-size: 32px;
+}
+
+.thirdPage-button {
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    background-color: black;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    opacity: 70%;
+    border: none;
+}
+.thirdPage-button:hover {
+    background-color: rgb(176, 175, 175);
+}
+
+.thirdPage-button a{
+    text-decoration: none;
+    color: white;
 }
