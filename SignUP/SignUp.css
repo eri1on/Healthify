@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding: 0;
+
   
 }
 
@@ -55,18 +56,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image: url("../img/nature-art.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .why-div-li{
-width:90%;
-height:50%;
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: bold;
-color:#333;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
 
 
 
@@ -75,7 +80,7 @@ color:#333;
 #why-div li{
      list-style-type:circle;
      margin: 10px;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
      font-size: small;
      text-align: left;
      
@@ -94,6 +99,7 @@ color:#333;
     background-color: #354259;
     border-radius: 40px;
     color:white;
+    margin-top:10px;
 }
 
 .submit-btn:hover , .submit-btn:focus{
