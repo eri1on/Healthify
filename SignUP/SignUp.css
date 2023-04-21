@@ -1,17 +1,45 @@
 body{
     margin:0;
     padding: 0;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   
+  
+}
+
+
+.exising-user-p{
+    font-size: small;
+   
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:green;
+    font-size:larger;
+    font-weight: 500;
 }
 
 
 #signup-form-div{    
    
 
-    float:right;
-    height:100vh;
-    width:50%;
+    height:80vh;
+    width:40%;
+    border-style: outset;
+    border-radius: 40px;
+    border:none;
+    box-shadow: 0 0 10px rgba(63, 208, 6, 0.3);
+  
+    
+    
+   
+
   
 }
 
@@ -36,29 +64,34 @@ body{
     height:30px;
     text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+ 
     
     
 }
 .form-input:hover, .form-input:focus {
     border-color: #4d90fe;
-    box-shadow: 0 0 10px #4d90fe;
+    box-shadow: 0 0 7px #4d90fe;
   }
 
 
 
 #why-div{
   
-    float: left;
+   
     height:100vh;
-    background-color:#F6F6F6;
+    background-color:#fff;
     width:50%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/nature-art.jpg");
+    background-image: url("../img/human-running-removebg-preview.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    
+   
+    
+
 
 }
 
@@ -72,7 +105,7 @@ body{
     color: #333;
     font-size: 18px;
     line-height: 1.5;
-
+    margin-top: 100px;
 
 
 }
@@ -84,6 +117,7 @@ body{
      font-size: small;
      text-align: left;
      
+     
 }
 .img{
     width:100px;
@@ -94,7 +128,7 @@ body{
     border:none;
    border-bottom: 2px solid #ccc ;
     width:300px;
-    height:30px;
+    height:35px;
     text-align: center;
     background-color: #354259;
     border-radius: 40px;
