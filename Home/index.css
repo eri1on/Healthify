@@ -56,25 +56,6 @@ body {
     color: white;
 }
 
-
-.about-us {
-    font-family: Roboto, Arial;
-    font-size: 16px;
-    border: solid;
-    border-width: 1px;
-    border-radius: 6px;
-    border-color: black;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 25px;
-    cursor: pointer;
-}
-.about-us:hover { 
-    background-color: rgb(42, 230, 42);
-}
-
 .dont-knowYet {
     font-family: Roboto, Arial;
     font-size: 16px;
@@ -90,7 +71,7 @@ body {
     cursor: pointer;
 }
 .dont-knowYet:hover { 
-    background-color: rgb(42, 230, 42);
+    background-color: green;
 }
 
 
@@ -109,7 +90,7 @@ body {
     cursor: pointer;
 }
 .recipes-and-tips:hover { 
-    background-color: rgb(42, 230, 42);
+    background-color: green;
 }
 
 
@@ -128,7 +109,7 @@ body {
     cursor: pointer;
 }
 .contact-us:hover {
-    background-color: rgb(42, 230, 42);
+    background-color: green;
 }
 
 
@@ -147,7 +128,7 @@ body {
     cursor: pointer;
 }
 .sign-up:hover {
-    background-color: rgb(42, 230, 42);
+    background-color: green;
 }
 
 
@@ -215,8 +196,6 @@ body {
     height: 550px;
     width: 425px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: -150px;
     margin-top: -100px;
 }
@@ -224,8 +203,6 @@ body {
     height: 350px;
     width: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: -100px;
     margin-top: -45px;
 }
@@ -233,8 +210,6 @@ body {
     height: 460px;
     width: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: -150px;
     margin-top: -100px;
 }
@@ -247,8 +222,6 @@ body {
     border-color: none;
     border-width: 0px;
     margin: 25px;
-    justify-content: center;
-    align-items: center;
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 0px 30px 30px grey;
@@ -267,8 +240,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 700px;
-    background-image: url(../img/prove.jpg);
-    background-size: cover;
+    background-image: url(../img/nature1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     /*background-color: lightpink;*/
     margin-top: 30px;
     border-radius: 1000px;
@@ -287,17 +261,19 @@ body {
 
     font-family: Robot, Arial;
     font-size: 24px;
-    color: white;
+    color: black;
 
 }
 
 .headTxt-cont {
+    font-weight: 700;
     font-family: Roboto, Arial;
     font-size: 32px;
 }
 
 .thirdPage-button {
     margin-top: 50px;
+    margin-bottom: 100px;
     border-radius: 5px;
     padding-left: 80px;
     padding-right: 80px;
@@ -305,18 +281,92 @@ body {
     padding-bottom: 13px;
     font-family: Roboto, Arial;
     font-size: 20px;
-    background-color: black;
+    background-color: rgb(28, 66, 88);
     cursor: pointer;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     opacity: 70%;
     border: none;
+    box-shadow: 0px -25px 55px black;
 }
 .thirdPage-button:hover {
-    background-color: rgb(176, 175, 175);
+    background-color: rgb(111, 156, 170);
 }
 
 .thirdPage-button a{
     text-decoration: none;
     color: white;
+    font-weight: 500;
+    opacity: 100%;
 }
+
+.fourPage-container {
+    height: 600px;
+    border: none;
+    margin-top: 55px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-shadow: 5px 0px 20px black;
+}
+
+.four-text {
+    margin-right: 100px;
+    margin-left: 80px;
+    padding-left: 0px;
+    width: 600px;
+    height: 300px;
+    border: none;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    color: white;
+}
+
+.fourHeader {
+    font-family: Roboto, Arial;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 15px;
+    padding-left: 0px;
+    border: none;
+    color: white;
+}
+
+.four-button {
+    margin-top: 30px;
+}
+.four-button-cl {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.four-button a{
+    text-decoration: none;
+    color: green    ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.four-button-cl:hover {
+    background-color: rgb(250, 224, 224);
+}
+
+.four-img {
+    margin-left: 250px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 300px;
+}
+
+
