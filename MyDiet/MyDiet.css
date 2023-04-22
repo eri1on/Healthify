@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+.logo{
+    width:150px;
+}
+.logo-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    margin-left: -42px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#fff;
+}
+
+
+.header-top-div{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-between;
+    
+    background-color: #333;
+    height:80px;
+
+}
+
+.nav-btn{
+    margin:25px;
+    width:100px;
+    height:40px;
+    border:none;
+    background-color: #333;
+    
+}
+
+.nav-btn:hover{
+    box-shadow: 0 0 20px rgba(224, 248, 2, 0.3);
+    border-radius: 5px;
+    background-color:green;
+}
+
+.nav-div a{
+color:white;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:15px;
+font-weight: 700;
+   
+}
+
+
+
+
+
+/*                 MAIN    ///////////////////////////  */
+
+
+
+.section-1{
+    background-image: linear-gradient(rgba(83, 145, 101, 0.8), rgba(83, 145, 101, -20)),url("https://imgs.search.brave.com/ugiEHOibIJ3v5H3kRSMguEedpvCvMevqSneJyEZXWnk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9mb29k/cmV2b2x1dGlvbi5v/cmcvd3AtY29udGVu/dC91cGxvYWRzL2lT/dG9jay05MTA3OTQ3/MDAtMjAwMHgxMzMz/LmpwZw");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.section-1-text{
+     text-align: left;
+     margin-bottom: 20px;
+     line-height: 40px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:#539165;
+     margin-left: 900px;
+     font-size: larger;
+    
+}
+.section-1-p{
+    color:#EAE7B1 ;
+    line-height: 20px !important;
+    
+  
+}
