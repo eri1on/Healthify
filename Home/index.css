@@ -262,7 +262,6 @@ body {
     font-family: Robot, Arial;
     font-size: 24px;
     color: black;
-
 }
 
 .headTxt-cont {
@@ -423,7 +422,6 @@ body {
     padding-bottom: 70px;
 }
 
-
 .imgFive {
     height: 140px;
     width: 120px;
@@ -435,7 +433,6 @@ body {
     align-items: top; 
     box-shadow: 0px 15px 15px grey;
 }
-
 
 .firstImg {
     height: 350px;
@@ -534,7 +531,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to bottom, #2a303d, white);
-
 }
 
 .leftInfo {
@@ -556,7 +552,6 @@ body {
     margin-right: 25px;
     height: 100px;
     width: 300px;
-    
 }
 
 .midInfo a {
@@ -606,5 +601,3 @@ i {
     align-items: center;
     color: grey;
 }
-
-
