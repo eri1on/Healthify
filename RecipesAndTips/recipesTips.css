@@ -642,7 +642,7 @@ body {
     color: black;
 }
 .midInfo a:hover{
-    color: white;
+    color: rgb(34, 170, 34);
 }
 
 .midText {
