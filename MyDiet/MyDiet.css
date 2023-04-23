@@ -107,9 +107,12 @@ font-weight: 700;
     border-radius: 40px;
     border:none;
     margin-top: 25px;
+    transition:transform 0.2s ease-in-out;
 }
 .create-diet-btn:hover{
     box-shadow: 0 0 20px rgba(92, 228, 2, 0.788);
+    transform:translateY(-5px);
+    cursor:pointer
 }
 
 .section-1 a{
@@ -122,7 +125,7 @@ font-weight: 700;
 
 .div-1{
     position: absolute;
-    bottom:-320px;
+    bottom:-350px;
     left:200px;
     height:220px;
     width:270px;
@@ -132,11 +135,15 @@ font-weight: 700;
     border-top-right-radius: 30px;
     background-color: #fff;
     border-color:#fff;
+    transition:transform 0.3s ease-in-out;
+}
+.div-1:hover{
+    transform:translateY(-15px);
 }
 
 .div-2{
     position: absolute;
-    bottom:-320px;
+    bottom:-350px;
     left:600px;
     height:220px;
     width:270px;
@@ -146,12 +153,15 @@ font-weight: 700;
     border-top-right-radius: 30px;
     background-color: #fff;
     border-color:#fff;
+    transition: transform 0.3s ease-in-out;
 }
-
+.div-2:hover{
+transform: translateY(-15px);
+}
 
 .div-3{
     position:absolute;
-    bottom:-320px;
+    bottom:-350px;
     left:1000px;
     height:220px;
     width:270px;
@@ -161,10 +171,14 @@ font-weight: 700;
     border-top-right-radius:30px;
     background-color: #fff;
     border-color:#fff;    
+    transition:transform 0.3s ease-in-out;
+}
+.div-3:hover{
+    transform:translateY(-15px);
 }
 .div-4{
     position:absolute;
-    bottom:-320px;
+    bottom:-350px;
     left:1400px;
     height:220px;
     width:270px;
@@ -174,8 +188,11 @@ font-weight: 700;
     border-top-right-radius: 30px;
     background-color: #fff;
     border-color:#fff;
+    transition:transform 0.3s ease-in-out;
 }
-
+.div-4:hover{
+    transform:translateY(-15px);
+}
 .div-1 h3{
     margin-top:20px;
     font-family: 'Roboto', sans-serif;
@@ -262,7 +279,11 @@ font-weight: 700;
     border-style: none;
     box-shadow: 0 0 30px rgba(97, 16, 16, 0.788);
     border-top-right-radius:40%;
-    
+    transition:transform 0.3s ease-in-out;
+
+}
+.section-2-img-div:hover{
+    transform:scale(1.1);
 }
 .experience-div{
     border-style:solid;
@@ -277,7 +298,11 @@ font-weight: 700;
     font-weight: 500 !important;
     margin-bottom: 20px;
     border-top-right-radius: 40px;
+    transition:transform 0.3s ease-in-out;
     
+}
+.experience-div:hover{
+    transform: rotateY(30deg);
 }
 .experience-div p {
     margin:10px;
@@ -343,10 +368,11 @@ font-weight: 700;
     font-size:15px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    transition:transform 0.3s ease-in-out;
     
 }
 .about-btn:hover{
     cursor: pointer;
     color:#C7E8CA;
+    transform:translateX(10px);
 }
