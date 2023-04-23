@@ -57,7 +57,7 @@ body {
     color: white;
 }
 
-.dont-knowYet {
+.myDiet {
     font-family: Roboto, Arial;
     font-size: 16px;
     border: solid;
@@ -71,8 +71,8 @@ body {
     margin-right: 25px;
     cursor: pointer;
 }
-.dont-knowYet:hover { 
-    background-color: green;
+.myDiet:hover { 
+    background-color: #2a303d;
 }
 
 
@@ -91,7 +91,7 @@ body {
     cursor: pointer;
 }
 .recipes-and-tips:hover { 
-    background-color: green;
+    background-color: #2a303d;
 }
 
 
@@ -110,7 +110,7 @@ body {
     cursor: pointer;
 }
 .contact-us:hover {
-    background-color: green;
+    background-color: #2a303d;
 }
 
 
@@ -129,7 +129,7 @@ body {
     cursor: pointer;
 }
 .sign-up:hover {
-    background-color: green;
+    background-color: #2a303d;
 }
 
 
@@ -520,10 +520,6 @@ body {
     color: #2a303d;
 }
 
-.button5:hover {
-    background-color: #abc5ff;
-}
-
 .info-container {
     height: 225px;
     display: flex;
@@ -561,7 +557,7 @@ body {
     color: black;
 }
 .midInfo a:hover{
-    color: rgb(112, 112, 112);
+    color: white;
 }
 
 .midText {
