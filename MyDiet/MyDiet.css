@@ -11,7 +11,7 @@ body{
 
 
 .logo{
-    width:150px;
+    width:9.375rem;
 }
 .logo-div {
     display: inline-flex;
@@ -20,7 +20,7 @@ body{
 }
 
 .logo-text {
-    margin-left: -42px;
+    margin-left: -2.625rem;
     font-size: 1.5rem;
     font-weight: bold;
     color:#fff;
@@ -34,14 +34,14 @@ body{
     justify-content: space-between;
     
     background-color: #333;
-    height:80px;
+    height:5rem;
 
 }
 
 .nav-btn{
-    margin:25px;
-    width:100px;
-    height:40px;
+    margin:1.563rem;
+    width:6.25rem;
+    height:2.5rem;
     border:none;
     background-color: #333;
     
@@ -49,7 +49,7 @@ body{
 
 .nav-btn:hover{
     box-shadow: 0 0 20px rgba(224, 248, 2, 0.3);
-    border-radius: 5px;
+    border-radius: 0.313rem;
     background-color:green;
 }
 
@@ -57,7 +57,7 @@ body{
 color:white;
 text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size:15px;
+font-size:0.938rem;
 font-weight: 700;
    
 }
@@ -74,7 +74,7 @@ font-weight: 700;
     background-image: linear-gradient(rgba(83, 145, 101, 0.5), rgba(83, 145, 101, -20)),url("../img/section-1-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height:1100px;
+    height:68.75rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,32 +86,32 @@ font-weight: 700;
 
 .section-1-text{
      text-align: left;
-     margin-bottom: 20px;
-     line-height: 40px;
+     margin-bottom: 1.25rem;
+     line-height: 2.5rem;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      color:#539165;
-     margin-left: 900px;
+     margin-left: 56.25rem;
      font-size: larger;
     
 }
 .section-1-p{
     color:#fff ;
-    line-height: 20px !important;
+    line-height: 1.25rem !important;
     
   
 }
 
 .create-diet-btn{
-    height:40px;
-    width: 170px;
-    border-radius: 40px;
+    height:2.5rem;
+    width: 10.625rem;
+    border-radius: 2.5rem;
     border:none;
-    margin-top: 25px;
+    margin-top: 1.563rem;
     transition:transform 0.2s ease-in-out;
 }
 .create-diet-btn:hover{
-    box-shadow: 0 0 20px rgba(92, 228, 2, 0.788);
-    transform:translateY(-5px);
+    box-shadow: 0 0 1.25rem rgba(92, 228, 2, 0.788);
+    transform:translateY(-0.313rem);
     cursor:pointer
 }
 
@@ -125,46 +125,46 @@ font-weight: 700;
 
 .div-1{
     position: absolute;
-    bottom:-350px;
-    left:200px;
-    height:220px;
-    width:270px;
+    bottom:-21.875rem;
+    left:12.5rem;
+    height:13.75rem;
+    width:16.875rem;
     border-style:solid;
     text-align:center;
-    box-shadow: 0 0 20px rgba(92, 228, 2, 0.788);
-    border-top-right-radius: 30px;
+    box-shadow: 0 0 1.25rem rgba(92, 228, 2, 0.788);
+    border-top-right-radius: 1.875rem;
     background-color: #fff;
     border-color:#fff;
     transition:transform 0.3s ease-in-out;
 }
 .div-1:hover{
-    transform:translateY(-15px);
+    transform:translateY(-0.938rem);
 }
 
 .div-2{
     position: absolute;
-    bottom:-350px;
-    left:600px;
-    height:220px;
-    width:270px;
+    bottom:-21.875rem;
+    left:37.5rem;
+    height:13.75rem;
+    width:16.875rem;
     border-style:solid;
     text-align:center;
-    box-shadow: 0 0 20px rgba(92, 228, 2, 0.788);
-    border-top-right-radius: 30px;
+    box-shadow: 0 0 1.25rem rgba(92, 228, 2, 0.788);
+    border-top-right-radius: 1.875rem;
     background-color: #fff;
     border-color:#fff;
     transition: transform 0.3s ease-in-out;
 }
 .div-2:hover{
-transform: translateY(-15px);
+transform: translateY(-0.938rem);
 }
 
 .div-3{
     position:absolute;
-    bottom:-350px;
-    left:1000px;
-    height:220px;
-    width:270px;
+    bottom:-21.875rem;
+    left:62.5rem;
+    height:13.75rem;
+    width:16.875rem;
     border-style:solid;
     text-align:center;
     box-shadow:0 0 20px rgba(92, 228, 2, 0.788);
@@ -375,4 +375,125 @@ transform: translateY(-15px);
     cursor: pointer;
     color:#C7E8CA;
     transform:translateX(10px);
+}
+
+
+
+
+/*     SECTION-3           //////////////////////*/
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    padding-bottom:100px;
+    justify-content: center;
+    background-color: #fff;
+   
+   
+}
+.text-div h4{
+    color:#F2921D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.text-div h2{
+    color:#333;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500 !important;
+}
+.section-3-div-1{
+    display: flex;
+    text-align: left !important;
+    margin-left: 20.5rem;
+    width:80vw;
+   
+}
+
+.call-now-div{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-left: 37.5rem;
+}
+.phone-pic-div img{
+    width:60px;
+    
+}
+.number-div{
+    background-color: #F0F0F0;
+    border-top-right-radius:10px;
+    width:250px;
+    height:70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    
+}
+.section-3-div-1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+/*DIV 2  SECTION-3   //////////////////////////*/
+
+.section-3-div-2{
+    display: flex;
+    width:96vw;
+    margin-top: 40px;
+    margin-bottom:40px;
+    justify-content: center;
+    
+}
+
+
+.program-1,.program-2,.program-3,.program-4{
+margin-left:40px;
+margin-top: 15px;
+border-style: none;
+border-color: #fff;
+background-color: #fff;
+color:#fff;
+box-shadow: 0 0 40px #212A3E;
+flex-wrap: wrap;
+}
+
+.section-3-img{
+    width:430px;
+    height:400px;
+}
+
+.program-text{
+    display: flex;
+    align-items: center;
+    height:120px;
+    justify-content: space-around;
+    
+   
+    
+}
+
+.program-text h3{
+font-family:'Times New Roman', Times, serif;
+   font-weight: 600;
+   color:#333;
+ 
+   
+}
+.program-text img{
+    
+    transition:transfrom 0.3s ease-out;
+}
+.program-text img:hover{
+     cursor: pointer;
+     transform:rotateY(180deg);
+    
 }
