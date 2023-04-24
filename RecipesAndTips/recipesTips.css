@@ -74,26 +74,6 @@ body {
     background-color: #2a303d;
 }
 
-
-.recipes-and-tips {
-    font-family: Roboto, Arial;
-    font-size: 16px;
-    border: solid;
-    border-width: 1px;
-    border-radius: 6px;
-    border-color: black;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 25px;
-    cursor: pointer;
-}
-.recipes-and-tips:hover { 
-    background-color: #2a303d;
-}
-
-
 .contact-us {
     font-family: Roboto, Arial;
     font-size: 16px;
