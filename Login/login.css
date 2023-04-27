@@ -57,7 +57,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+ 
+  
 }
 
 .middle-div {
@@ -67,10 +68,12 @@ a{
     align-items: center;
     border-radius: 20px;
     width: 400px;
-    height: 600px;
+    height: 530px;
     margin-top: 150px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  
+  
   }
 
 
@@ -84,7 +87,7 @@ a{
     align-items: center;
     margin:10%;
     text-align: center;
-
+ 
 }
 .login-container h1{
     margin-bottom: 20px;

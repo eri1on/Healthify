@@ -30,7 +30,7 @@ a{
    
 
     height:80vh;
-    width:40%;
+    width:50%;
     border-style: outset;
     border-radius: 40px;
     border:none;
@@ -88,11 +88,12 @@ a{
     align-items: center;
     background-image: url("../img/human-running-removebg-preview.png");
     background-repeat: no-repeat;
-    
+    background-position-y: -25px;
+    background-size:350px;
    
-    
-
-
+}
+#why-div h2{
+    padding-top: -20px;
 }
 
 .why-div-li{
