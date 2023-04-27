@@ -178,10 +178,10 @@ transform: translateY(-0.938rem);
 }
 .div-4{
     position:absolute;
-    bottom:-350px;
-    left:1400px;
-    height:220px;
-    width:270px;
+    bottom:-21.875rem;
+    left: 87.5rem;
+    height:13.75rem;
+    width:16.875rem;
     border-style:solid;
     text-align:center;
     box-shadow: 0 0 20px rgba(92, 228, 2, 0.788);
