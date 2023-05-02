@@ -217,6 +217,10 @@ body {
 
 .what-container {
     border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
